@@ -64,4 +64,4 @@ selfWriteText( "joshua created this demo", 0.1, false, "self-text" )
     if you want to show multiple stuff( timing is very important in this aspect )
     to do the math: time that will be taken to self-write = timeTakenToWritALetter * textToBeWritten.length
 */
-setTimeout( function(){ selfWriteText( "this demo shows the typing like effect on the element passed", 0.1, true, "self-text" ) }, 4000 );
+setTimeout( function(){ selfWriteText( "this demo shows the typing-like effect on this element", 0.1, true, "self-text" ) }, 4000 );

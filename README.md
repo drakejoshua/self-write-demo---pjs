@@ -5,10 +5,10 @@
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-This is a self-write/typing effect demo created by mabawonku joshua
+This is a self-write/typing-effect demo created by mabawonku joshua
 
 ## Description
-This repo contains contains a demo( as shown in the live site URL ). The demo allows you to create a typing like effect on an element's text content
+This repo contains contains a demo( as shown in the live site URL ). The demo allows you to create a typing-like effect on an element's text content
 as they auto-write. it uses a function which works in a way( desrcibed below ). the function interacts and writes text into the associated element
 
 ### Links
