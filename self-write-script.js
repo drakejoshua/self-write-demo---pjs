@@ -43,18 +43,20 @@ function selfWriteText( textToBeWritten, timeToWriteALetter, overrideContent, el
             }
         }, ( timeToWriteALetter * 1000 ) )
     }
-}
-
-//shreds any text passed and converts it to an array
-function shredText( text ){
-    var count = 0, shreddedText = [];
-
-    for ( ; count <= ( text.length - 1 ); count++ ) {
-        shreddedText[count] = text[count]
+    
+    
+    //shreds any text passed and converts it to an array
+    function shredText( text ){
+        var count = 0, shreddedText = [];
+    
+        for ( ; count <= ( text.length - 1 ); count++ ) {
+            shreddedText[count] = text[count]
+        }
+    
+        return shreddedText
     }
-
-    return shreddedText
 }
+
 //a quick demo
 selfWriteText( "joshua created this demo", 0.1, false, "self-text" )
 
@@ -62,6 +64,4 @@ selfWriteText( "joshua created this demo", 0.1, false, "self-text" )
     if you want to show multiple stuff( timing is very important in this aspect )
     to do the math: time that will be taken to self-write = timeTakenToWritALetter * textToBeWritten.length
 */
-setTimeout( function(){ selfWriteText( "joshua loves programming", 0.1, true, "self-text" ) }, 4000 );
-setTimeout( function(){ selfWriteText( "joshua loves coding", 0.1, true, "self-text" ) }, 7000 );
-setTimeout( function(){ selfWriteText( "joshua loves design", 0.1, true, "self-text" ) }, 10000 );
+setTimeout( function(){ selfWriteText( "this demo shows the typing like effect on the element passed", 0.1, true, "self-text" ) }, 4000 );

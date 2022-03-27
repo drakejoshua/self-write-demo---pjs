@@ -6,6 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My demos</title>
     <base href="https://drakejoshua.github.io/self-write-demo---pjs/">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(74, 139, 212);
+        }
+        #self-text{
+            color: white;
+            font-size: 2em;
+            text-transform: capitalize;
+        }
+        h2{
+            text-transform: capitalize;
+            font-family: candara, "Trebuchet MS", Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 2em;
+        }
+        h2, #self-text{
+            margin-left: 10%;
+        }
+
+        /* for the cursor */
+        #self-text::after{
+            content: "|";
+            animation: blink 0.5s ease-in-out 0s infinite;
+        }
+        @keyframes blink {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="demo-ctn">
